@@ -1,0 +1,470 @@
+@font-face {
+    font-family: 'PingFang-TC';
+    src: local('PingFang-TC'), url('/fonts/PingFangTC-Medium.ttf');
+    unicode-range: U+000-5FF; 
+  }
+
+  .bar li{
+        font-size: 12px;
+  }
+
+  .section2 .bar ul li::before {
+    top: -139px;}
+  .section3 h4 {
+    position: relative;
+    width: auto;
+    height: auto;
+    padding-right: 95px;
+    margin: 0;}
+.section2 .bar ul li:nth-child(1)::before {
+    content: "Fund Manager";
+    font-size: 16px;
+  }
+  .section3{
+      height: 770px;
+  }
+  .section3 h4::after {
+    right: 79px;
+    bottom: -91px;}
+  .section2 .bar ul li:nth-child(2)::before {
+    content: "Quant Consultant";
+    font-size: 16px;
+  }
+  
+  .section2 .bar ul li:nth-child(3)::before {
+    content: "Ephodtech Analytical Platform";
+    font-size: 16px;
+  }
+
+  .section2 .bar ul li:nth-child(4)::before {
+    content: "Ephodtech Trading Signal Platform";
+    font-size: 16px;
+  }
+
+  .section2 .underText ul:nth-child(1){
+      width: 250px;
+      margin-left: -55px;
+  }
+  .section2 .underText ul:nth-child(2){
+    margin-left: -190px;
+}
+.section2 .underText ul:nth-child(3){
+    margin-left: -120px;
+}
+.section2 .bar ul li:nth-child(3)::before {
+    right: 26%;
+}
+.section1 h3 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.section4{
+    height: 700px;
+}
+.section2 .underText ul li{
+ font-size: 12px;
+ letter-spacing: 0;
+}
+.section2 .bar ul li:nth-child(3)::before {
+    right: 32%;
+}
+.section2 .bar ul li:nth-child(3)::before {
+    background-position: 50px 26px;
+}
+.section2 .bar ul li:nth-child(4)::before {
+    background-position: 50px 26px;
+}
+@media only screen and (max-width: 1200px) {
+    .section3{
+        height: 800px;
+    }
+    .section2 .bar::after{
+        top: -30px;
+    }
+    .section2 .bar ul li:nth-child(1)::before {
+        top: -53px;
+        left: -215px;
+      }
+      .section2 .bar ul li:nth-child(2)::before {
+        top: -80px;
+        right: 169%;
+      }
+      
+      .section2 .bar ul li:nth-child(3)::before {
+        top: -80px;
+      }
+    
+      .section2 .bar ul li:nth-child(4)::before {
+        top: -80px;
+      }
+    .underText li{
+        display: none;
+    }
+    .section2 .bar ul li::after {
+        content: "123";
+        position: absolute;
+        top: 47px;
+        left: 25px;
+        font-size: 14px;
+        line-height: 24px;
+        color: #555680;
+        font-family: PingFang-TC;
+        text-align: left;
+    }
+    .section2 .bar ul li:nth-child(3)::before {
+    width: 100%;
+    left: -270px;
+    }
+    .section2 .bar ul li:nth-child(4)::before {
+        left: -263px;
+        width: 91%;
+    }
+    .section2 .bar ul li:nth-child(1)::after {
+        content: "・Hypothesis on the existence of correlation among multiple industries\A ・ Hypothesis on the existence of effective industry specific factors";
+    }
+    .section2 .bar ul li:nth-child(2)::after {
+        content: "・Economic Activity Indicators\A ・Production Investment Activity Indicators \00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\A ・Capital Markets Indicators\A ・Company Financial Indicators";
+        width: 106%;
+    }
+    .section2 .bar ul li:nth-child(3)::after {
+        content: "・Return\00A0\00A0\00A0\00A0\00A0\00A0\A・RSharpe Ratio\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\A ・Alpha\00A0\00A0\00A0\00A0\00A0\00A0 \A ・Beta\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\A ・Win Rate";
+        width: 50%;
+    }
+    .section2 .bar ul li:nth-child(4)::after {
+        content: "・SMS\A ・Email";
+        width: 30%;
+    }
+    .section2 .bar ul li::before {
+        left: -200px;
+        top: 50px;
+    }
+    .section2 .bar ul li:nth-child(1) {
+        width: 23%;
+    }
+    .section2 .bar ul li:nth-child(2) {
+        width: 23%;
+    }
+    .section2 .bar ul li:nth-child(3) {
+        width: 23%;
+    }
+    .section2 .bar ul li:nth-child(4) {
+        width: 22%;
+    }
+    .section1{
+        height: 550px;
+    }
+    .section2{
+        height: 1500px;
+    }
+        .section2 ul li {
+          -webkit-transform: rotate(270deg);
+                  transform: rotate(270deg);
+          margin-left: 0px;
+          margin-top: -200px;
+          color: #171C61;
+          font-family: PingFang-TC;
+          font-size: 14px;
+          font-weight: 500;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: 1px;
+        }
+      
+        .section2 .bar {
+          -webkit-transform: rotate(90deg);
+                  transform: rotate(90deg);
+          width: 900px;
+          height: 20px;
+          bottom: -300px;
+          /* left: -200px; */
+        }
+
+          .section2 .underText-firsth6 {
+            -webkit-transform: rotate(270deg);
+                    transform: rotate(270deg);
+            position: absolute;
+            left: -20px;
+            top: -38px;
+            text-align: left;
+          }
+          .section2 .underText-secondeh6 {
+            -webkit-transform: rotate(270deg);
+                    transform: rotate(270deg);
+            position: absolute;
+            left: -17px;
+            top: -57px;
+            text-align: left;
+          }
+          .section2 .underText ul {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: row;
+                    flex-direction: row;
+            -webkit-transform: rotate(90deg);
+                    transform: rotate(90deg);
+          }
+          .section2 .underText ul li {
+            -webkit-writing-mode: vertical-lr;
+                -ms-writing-mode: tb-lr;
+                    writing-mode: vertical-lr;
+            text-orientation: sideways;
+            -webkit-transform: rotate(180deg);
+                    transform: rotate(180deg);
+            text-align: left;
+          }
+          .section2 .underText ul:nth-child(1) {
+            position: absolute;
+            top: -95px;
+            left: 135px;
+          }
+          .section2 .underText ul:nth-child(2) {
+            position: absolute;
+            top: 80px;
+            left: 169px;
+          }
+          .section2 .underText ul:nth-child(2) li {
+            left: -20px;
+          }
+          .section2 .underText ul:nth-child(3) {
+            position: absolute;
+            top: 240px;
+            left: 122px;
+          }
+          .section2 .underText ul:nth-child(4) {
+            position: absolute;
+            top: 380px;
+            left: 115px;
+          }
+          .section2 .performancePart li {
+            margin-top: -116px;
+            margin-bottom: 14px;
+          }
+          .section2 .bar ul li:nth-child(1)::before {
+  background-image: url("../image/ico-manager@2x.png");
+}
+
+.section2 .bar ul li:nth-child(2)::before {
+  background-image: url("../image/logo-s@2x.png");
+  right: 165%;
+  text-align: center;
+}
+
+  @media only screen and (max-width: 990px) {
+    .section4{
+        height: 1200px;
+    }
+    .section3 h4 {
+        padding-right: 0;}
+    .section3{
+        height: 1100px;
+    }
+    .section2 .bar ul li:nth-child(1)::before {
+        left: -147px;
+    }
+    .section2 .bar ul li:nth-child(2)::before {
+        right: 46%;
+        top: -43px;
+    }
+    .section2 .bar ul li:nth-child(3)::before {
+        left: -185px;
+        top: -50px;
+    }
+    .section2 .bar ul li:nth-child(4)::before {
+        left: -113px;
+        width: 80%;
+        text-align: center;
+    }
+    .section2 .bar ul li:nth-child(3) {
+        margin-top: -180px;
+    }
+    .section2 .bar ul li:nth-child(4) {
+        margin-top: -71px;
+    }
+    .section2 .bar {
+        left: -286px;
+    }
+    .section2 .bar ul li::after {
+        top: 39px;
+    }
+    .section2 ul li {
+        margin-top: -248px;}
+        .section2 .bar ul li:nth-child(1)::after {
+        top: 30px;
+            left: 0;
+            }
+        .section2 .bar ul li:nth-child(2)::after {
+        top: 55px;
+        left: 0;
+        }
+        .section2 .bar ul li:nth-child(3)::after {
+        top: 50px;
+        }
+        .section2 .bar ul li:nth-child(4)::after {
+            left: 74px;
+        top: 50px;}
+    }
+
+
+
+@media only screen and (min-width: 2200px) {
+  .section2 .bar ul li:nth-child(3)::before {
+    right: 46%;
+  }
+}
+
+    .section2 .underText {
+      position: relative;
+    }
+    .section2 .underText-firsth6 {
+      -webkit-transform: rotate(270deg);
+              transform: rotate(270deg);
+      position: absolute;
+      left: -20px;
+      top: -38px;
+      text-align: left;
+    }
+    .section2 .underText-secondeh6 {
+      -webkit-transform: rotate(270deg);
+              transform: rotate(270deg);
+      position: absolute;
+      left: -17px;
+      top: -57px;
+      text-align: left;
+    }
+    .section2 .underText ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-transform: rotate(90deg);
+              transform: rotate(90deg);
+    }
+    .section2 .underText ul li {
+      -webkit-writing-mode: vertical-lr;
+          -ms-writing-mode: tb-lr;
+              writing-mode: vertical-lr;
+      text-orientation: sideways;
+      -webkit-transform: rotate(180deg);
+              transform: rotate(180deg);
+      text-align: left;
+    }
+    .section2 .underText ul:nth-child(1) {
+      position: absolute;
+      top: -95px;
+      left: 135px;
+    }
+    .section2 .underText ul:nth-child(2) {
+      position: absolute;
+      top: 80px;
+      left: 169px;
+    }
+    .section2 .underText ul:nth-child(2) li {
+      left: -20px;
+    }
+    .section2 .underText ul:nth-child(3) {
+      position: absolute;
+      top: 240px;
+      left: 122px;
+    }
+    .section2 .underText ul:nth-child(4) {
+      position: absolute;
+      top: 380px;
+      left: 115px;
+    }
+    .section2 .performancePart li {
+      margin-top: -116px;
+      margin-bottom: 14px;
+    }
+  }
+
+
+@media only screen and (max-width: 450px) {
+    .section4{
+        height: 1300px;
+    }
+    .section2 .bar ul li:nth-child(2)::before {
+        left: -314px;}
+    .section2 ul li{
+    font-size: 14px;
+    letter-spacing: 0;
+}
+.section2 .bar {
+    left: -330px;
+}
+
+.section2 .bar ul li::after {
+    line-height: 17px;
+    left: 0;
+}
+.section2 .bar ul li:nth-child(3) {
+    margin-top: -240px;
+    text-align: left;
+}
+.section2 .bar ul li:nth-child(3)::before {
+    width: 67%;}
+    .section2 .bar ul li:nth-child(3)::before {
+        left: -173px;
+    }
+    .section2 .bar ul li:nth-child(4)::before {
+        left: -166px;
+    top: -46px;
+    }
+    .section2 .bar ul li:nth-child(4) {
+     margin-top: -200px;}
+     .section2 .bar ul li:nth-child(2)::after {
+        width: 53%;
+        }
+    .section2 .bar ul li:nth-child(2)::after {
+    width: 58%;
+    }
+    .section2 .bar ul li:nth-child(3)::after{
+        width: 41%;
+    }
+    .section2 .bar ul li:nth-child(4)::after {
+        left: 15px;
+        top: 35px;
+    }
+    .section3{
+        height: 1350px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .section4{
+        height: 1500px;
+    }
+    .section2 .bar ul li {
+        font-size: 14px;
+        width: auto;
+    }
+    .section2 .bar ul li::after {
+        width: 50%;
+    }
+    .section2 .bar ul li:nth-child(4){
+        text-align: left;
+    }
+
+    .section2 .bar ul li:nth-child(3)::before {
+        width: 64%;
+        background-position: 46px 27px;}
+    .section2 .bar ul li:nth-child(4) {
+            margin-top: -220px;
+        }
+    .section2 .bar ul li:nth-child(4)::before {
+            left: -154px;
+            width: 62%;
+            background-position: 44px 30px;}
+    .section2{
+        height: 1550px;
+    }
+    .section3 h4{
+        font-size: 23px;
+    }
+}

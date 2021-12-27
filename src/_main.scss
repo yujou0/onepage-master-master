@@ -1,0 +1,754 @@
+html,body{
+  overflow-x: hidden;
+}
+a:hover{text-decoration:none;}
+/* 定義名為 Awesome Font 的字體 */
+ @font-face {
+   font-family: 'CeraPro';
+   src: local('CeraPro'), url('/fonts/CeraProBold.ttf'), url('/fonts/CeraProBold.otf');
+   unicode-range: U+000-5FF; 
+ }
+
+ @font-face {
+  font-family: 'PingFang-TC';
+  src: local('PingFang-TC'), url('/fonts/PingFangTC-Medium.ttf');
+  unicode-range: U+000-5FF; 
+}
+@font-face {
+  font-family: 'SourceHanSansTW';
+  src: local('SourceHanSansTW'), url('/fonts/SourceHanSerifTW-Bold.otf');
+  unicode-range: U+000-5FF; 
+}
+
+
+h2{
+  margin: 60px 150px 0;
+  font-family: CeraPro;
+  font-size: 80px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: 1px;
+  color: #fff;
+  @media only screen and (max-width: 990px)  {
+  font-size: 40px;
+    width: 100%;
+    height: 131px;
+    margin: 20px 20px 0;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: normal;
+    text-align: center;
+  }
+  @media only screen and (max-width: 300px)  {
+    margin: auto;
+    font-size: 30px;
+    }
+}
+h3{
+  font-size:40px ;
+}
+h4{
+  font-size: 30px;
+}
+h5{
+  font-size:20px ;
+}
+h6{
+  font-size:16px;
+}
+p{
+  font-size: 16px;
+}
+footer{
+  font-size: 14px;
+}
+.navbar{
+  @media only screen and (max-width: 300px)  {
+    padding: 0;
+    }
+}
+
+header{
+  width: 100%;
+  height: 630px;
+  color:#fff;
+  background-image: url(..//image/img-headline-background@3x.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  @media only screen and (max-width: 575px)  {
+    height: 320px;
+    }
+  a{
+    color: #fff;
+    width: 22px;
+    height: 22px;
+    margin: 0 20px 2px 2px;
+    font-family: PingFang-TC;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  img{
+    width: 217px;
+    height: 58px;
+    @media only screen and (max-width: 575px)  {
+      width: 118px;
+      height: 32px;
+    }
+  }
+  .nav-item{
+    position: relative;
+  }
+  .selected:after{
+      content: '';
+      width: 50%;
+      height: 1px;
+      background-color: #ccceff;
+      position: absolute;
+      bottom: -10px;
+      left: 12px;
+      transition: all .3s linear;
+  }
+  ul li a:hover {
+    color: $button-hover;
+  }
+}
+
+.section1{
+  height: 383px;
+  color: $primary-color;
+  @media only screen and (max-width: 900px)  {
+    height: 409px;
+    }
+  h3{
+    height: 58px;
+    margin: 0 126px 30px 0;
+    font-family: SourceHanSansTW;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    @media only screen and (max-width: 1200px)  {
+      margin: auto;
+    width: 200px;
+    font-size: 30px;
+      }
+  }
+  ul li {
+    list-style-type: none;
+    @media only screen and (max-width: 575px)  {
+    text-align: center;
+    }
+  }
+  .iconimg{
+    width: 24px;
+    height: 24px;
+    margin: 3px 12px 2px 0;
+    object-fit: contain;
+  }
+  .ipadimg{
+    margin-top: -149px;
+    width: 500px;
+    height: 500px;
+    padding: 0 0 0 4px;
+    object-fit: contain;
+    @media only screen and (max-width: 990px)  {
+      margin-top: -330px;
+    }
+    @media only screen and (max-width: 575px)  {
+    margin-top: -89px;
+    width: 250px;
+    height: 250px;
+
+    }
+  }
+  .section1-left{
+  margin: 60px 150px 0;
+  @media only screen and (max-width: 575px)  {
+    margin: 0 auto;
+        }
+  ul{
+    padding: 0%;
+  }
+  }
+  span{
+    width: 189px;
+    height: 29px;
+    margin: 0 0 0 12px;
+    font-family: SourceHanSansTW;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+  }
+}
+
+
+  @media only screen and (min-width: 900px)  {
+    .w-lg-50{
+      width: 50%;
+  }
+}
+
+// ---------------------------section2------------------------------
+.section2{
+  padding:90px 150px;
+  background-color: $background-colo-light;
+  height: 711px;
+  @media only screen and (max-width: 990px)  {
+    height: 1095px;
+  }
+  @media only screen and (max-width: 575px)  {
+  padding:70px 20px;
+}
+@media only screen and (max-width: 300px)  {
+  padding:30px 5px;
+}
+  .section2-part1{
+    text-align: center;
+  }
+  h3{
+    color: $primary-color;
+    font-family: SourceHanSansTW;
+  font-weight: bold;
+  margin-top: 24px;
+  @media only screen and (max-width: 575px)  {
+    margin-top: 30px;
+    font-size: 30px;
+  }
+  }
+  h5{
+    color: $primary-color;
+    font-family: CeraPro;
+    font-weight: 500;
+  }
+  p{
+    color: $secondary-color-gray;
+    font-family: SourceHanSansTW;
+    font-weight: 500;
+    @media only screen and (max-width: 1200px)  {
+      br {
+        display: none;
+    }}
+  }
+  .bar{
+    position: relative;
+    height: 47px;
+    background-color: $primary-color;
+    color:#fff;
+    line-height: 47px;
+    margin-top: 170px;
+    @media only screen and (max-width: 990px)  {
+      transform: rotate(90deg);
+      width: 657px;
+      height: 20px;
+      bottom: -200px;
+      left: -200px;
+    }
+    @media only screen and (max-width: 300px)  {
+    left: -250px;
+    }
+  }
+  .bar::after{
+    content:"";
+    background-image: url("../image/ico-triangle@2x.png");
+    position: absolute;
+    right: -58px;
+    top: -20px;
+    height: 88px;
+    width: 59px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    @media only screen and (max-width: 990px)  {
+      top: -32px;
+    }
+  }
+  ul li {
+    position: relative;
+    list-style-type: none;
+    text-align: center;
+    @media only screen and (max-width: 990px)  {
+      transform: rotate(270deg);
+      margin-left: 0px;
+      margin-top: -200px;
+      color: $primary-color;
+      font-family: PingFang-TC;
+      font-size: 14px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: 1px;
+    }
+    @media only screen and (max-width: 300px)  {
+      font-size: 12px;
+      }
+  }
+
+.bar ul li:nth-child(1){
+    width: 25%;
+}
+.bar ul li:nth-child(2){
+  width: 25%;
+}
+.bar ul li:nth-child(3){
+  width: 25%;
+}
+.bar ul li:nth-child(4){
+  width: 25%;
+}
+.bar ul li::before{
+  content:"基金經理";
+  padding-top: 85px;
+  color:red;
+  position: absolute; 
+  top: -120px;
+  background-image: url("../image/ico-manager@2x.png");
+  background-position: center;
+  background-size: 54px 54px;
+  background-repeat: no-repeat;
+  color: $primary-color;
+  font-family: PingFang-TC;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  @media only screen and (max-width: 990px)  {
+    font-size: 16px;
+  }
+}
+.bar ul li:nth-child(1)::before{
+  content:"基金經理";
+  background-image: url("../image/ico-manager@2x.png");
+}
+.bar ul li:nth-child(2)::before{
+  content:"量化顧問";
+  background-image: url("../image/logo-s@2x.png");
+  right:  38%;
+  text-align: center;
+
+  @media only screen and (min-width: 2200px)  {
+    right:  46%;
+  }
+}
+
+.bar ul li:nth-child(3)::before{
+  content:"分析系統";
+  background-image: url("../image/logo-s@2x.png");
+  right:  44%;
+  text-align: center;
+  @media only screen and (min-width: 2200px)  {
+    right:  46%;
+  }
+}
+.bar ul li:nth-child(4)::before{
+  content:"訊號系統";
+  background-image: url("../image/logo-s@2x.png");
+}
+@media only screen and (max-width: 990px)  {
+  .bar ul li{
+    text-align: left;
+    font-size: 16px;
+  }
+
+  .bar ul li:nth-child(2){
+    margin-left: -49px;
+  }
+  .bar ul li:nth-child(3){
+    text-align: right;
+    margin-right: -62px;
+  }
+  .bar ul li:nth-child(4){
+    text-align: right;
+    margin-right: 50px;
+    margin-top: -22px;
+  }
+
+  .bar ul li:nth-child(1)::before{
+    left: -150px;
+    top: -30px;
+    @media only screen and (max-width: 300px)  {
+      left: -112px;
+      }
+  }
+  .bar ul li:nth-child(2)::before{
+    left: -320px;
+    top: -30px;
+    @media only screen and (max-width: 300px)  {
+      left: -251px;
+      }
+  }
+  .bar ul li:nth-child(3)::before{
+    left: -327px;
+    top: -25px;
+    @media only screen and (max-width: 300px)  {
+      left: -251px;
+      }
+  }
+  .bar ul li:nth-child(4)::before{
+    left: -61px;
+    top: -30px;
+    @media only screen and (max-width: 300px)  {
+      left: -25px;
+      }
+  }
+}
+.underText{
+  width: 98%;
+  @media only screen and (min-width: 1800px)  {
+    width: 99%;
+    }
+}
+
+.underText ul{
+  margin-top: 20px;
+}
+.underText ul:nth-child(1) {
+  margin-left: -20px;
+}
+.underText ul:nth-child(2) {
+  margin-left: -70px;
+}
+.underText ul:nth-child(3) {
+  margin-left: -40px;
+}
+
+@media only screen and (max-width: 990px)  {
+  .underText{
+    position: relative;
+  }
+  .underText-firsth6{
+    transform: rotate(270deg);
+    position: absolute;
+    left: -20px;
+    top: -38px;
+    text-align: left;
+  }
+  .underText-secondeh6{
+    transform: rotate(270deg);
+    position: absolute;
+    left: -17px;
+    top: -57px;
+    text-align: left;
+  }
+  .underText ul{
+    display: flex;
+    flex-direction: row;
+    transform: rotate(90deg);
+  }
+
+  .underText ul li{
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    transform: rotate(180deg);
+    text-align: left;
+  }
+  .underText ul:nth-child(1) {
+    position: absolute;
+    top: -95px;
+    left: 135px;
+  }
+  .underText ul:nth-child(2) {
+    position: absolute;
+    top: 70px;
+    left: 169px;
+    li{
+      left: -20px;
+    }
+  }
+  .underText ul:nth-child(3) {
+    position: absolute;
+    top: 215px;
+    left: 122px;
+  }
+  .underText ul:nth-child(4) {
+    position: absolute;
+    top:380px;
+    left: 115px;
+  }
+  .performancePart li{
+    margin-top: -116px;
+    margin-bottom: 14px;
+  }
+}
+}
+
+// ---------------------------section3------------------------------
+.section3{
+  height: 530px;
+  background-color: $background-color-deep;
+  padding:130px 148px;
+  @media only screen and (max-width: 1250px)  {
+    height: 800px;
+  }
+  @media only screen and (max-width:700px)  {
+  padding:70px 20px;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  }
+  @media only screen and (max-width: 400px)  {
+    height: 800px;
+    }
+  @media only screen and (max-width: 300px)  {
+    height: 990px;
+    }
+  h4{
+    position: relative;
+    width: 420px;
+    height: 146px;
+    margin: 60px 30px 0 0;
+    font-family: SourceHanSansTW;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    color: $primary-color;
+    &::before{
+      content:"";
+      background-image: url("../image/ico-quote-upper.png");
+      position: absolute;
+      top: -60px;
+      height: 88px;
+      width: 59px;
+      background-size: contain;
+      background-repeat: no-repeat;
+        }
+    &::after{
+  content:"";
+  background-image: url("../image/ico-quote-lower.png");
+  position: absolute;
+  bottom:-70px;
+  right: 0px;
+  height: 88px;
+  width: 59px;
+  background-size: contain;
+  background-repeat: no-repeat;
+    }
+  }
+  .section3-rightside{
+    width: 586px;
+    margin: 50px 3px 30px 0;
+    font-family: SourceHanSansTW;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: $secondary-color-dark;
+    position: relative;
+  @media only screen and (max-width:700px)  {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+    &::before{
+      content:"";
+      background-image: url("../image/ico-quotation-mark.png");
+      position: absolute;
+      top: 10px;
+      left: -110px;
+      height: 202px;
+      width: 73px;
+      background-size: contain;
+      background-repeat: no-repeat;
+        }
+  }
+
+@media only screen and (min-width: 1250px)  {
+  .section3-content{
+    display: flex;
+    justify-content: center;
+}
+
+  }
+  .section3-content div:nth-child(1){
+    width: 100%;
+  }
+  .section3-content div:nth-child(2){
+    width: 86%;
+  }
+@media only screen and (max-width: 1250px)  {
+
+  h4{
+    width: 100%;
+    height: auto;
+  }
+}
+
+}
+// ---------------------------section4------------------------------
+.section4{
+  padding: 90px 201px;
+  height: 680px;
+  @media only screen and (max-width: 1250px)  {
+    height: 750px;
+  }
+  @media only screen and (max-width: 990px)  {
+    padding:70px 19px;
+  height: auto;
+  }
+  h6{
+    margin: 24px 0 41px;
+    font-family: SourceHanSansTW;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-align: center;
+  color: $primary-color;
+  }
+  h3{
+    margin-top: 24px;
+    margin-bottom: 50px;
+    color: $primary-color;
+  }
+  img{
+    width: 60px;
+    height: 60px;
+    margin: 20px auto;
+  }
+  h4{
+    font-family: SourceHanSansTW;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  color: $secondary-color-middle;
+  margin-bottom: 20px;
+  }
+  p{
+    font-family: SourceHanSansTW;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    color: $secondary-color-dark;
+  }
+  .button{
+    width: 398px;
+    height: 70px;
+    background: $linear-gradient;
+    border: 0px;
+    margin-top: 30px;
+    font-family: PingFangTC;
+    padding-top: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: center;
+    &:hover {
+      background: $button-hover ;
+    }
+    @media only screen and (max-width: 990px)  {
+      width: 335;
+    }
+  }
+
+
+}
+// ---------------------------section5------------------------------
+.section5{
+  height: 430px;
+  background-color: $secondary-color-middle;
+  h3{
+    font-family: CeraPro;
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  }
+  @media only screen and (min-width: 2200px)  {
+    height: 800px;
+    }
+  @media only screen and (max-width: 1250px)  {
+  height: 690px;
+  }
+  .section5-left{
+    padding-left: 90px;
+    padding-top: 150px;
+    width: 50%;
+    @media only screen and (max-width: 1250px)  {
+      height: 450px;
+    padding: 70px 20px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: center;
+      }
+    @media only screen and (max-width: 990px)  {
+     width: 100%;
+    }
+  }
+  .contactUs{
+    height: 18px;
+    margin: 0px 0px 24px 0;
+    font-family: CeraPro;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  .section5-right{
+    background-image: url("../image/EphodTech合照3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+    @media only screen and (max-width: 1250px)  {
+    width: 80%;
+      }
+    @media only screen and (max-width: 990px)  {
+      height: 240px;
+    width: 100%;
+      }
+  }
+}
+// ---------------------------footer------------------------------
+footer{
+  height: 168px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #1a2163;
+  p{
+    margin-top: 20px;
+  }
+  a svg:hover #fb,
+  a svg:hover #wechat,
+a svg:hover #linkin { 
+  fill: $button-hover;
+}
+
+
+  .imgbox{
+    width: 224px;
+  }
+}

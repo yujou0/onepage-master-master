@@ -1,0 +1,16 @@
+.section2 .bar ul li:nth-child(1)::before {
+    content: "基金经理";
+  }
+  
+  .section2 .bar ul li:nth-child(2)::before {
+    content: "量化顾问";
+  }
+  
+  .section2 .bar ul li:nth-child(3)::before {
+    content: "分析系统";
+  }
+
+  .section2 .bar ul li:nth-child(4)::before {
+    content: "讯号系统";
+  }
+  
